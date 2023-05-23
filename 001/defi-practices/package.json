@@ -1,0 +1,20 @@
+{
+  "name": "defi-practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "devDependencies": {
+    "hardhat": "^2.14.0"
+  }
+}
