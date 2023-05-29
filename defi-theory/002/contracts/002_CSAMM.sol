@@ -36,6 +36,7 @@ contract CSAMM {
         uint _amountIn
     ) external returns (uint amountOut) {
         require(_amountIn > 0);
+        amountOut = _amountIn;
 
         if (_tokenIn == address(token0)) {
             token0.transferFrom(msg.sender, address(this), _amountIn);
